@@ -1,0 +1,21 @@
+body {
+    font-family: 'Roboto';
+    margin: auto;
+}
+
+h1 {
+}
+
+h2{
+	text-align: center;
+	background: white;
+}
+
+span {
+	text-align: center;
+}
+
+.margin {
+	margin: 20px;
+	padding: 20px;
+}

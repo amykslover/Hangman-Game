@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title> Hangman </title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+  </head>
+  <body>
+
+    <div class="container-fluid margin">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="block">
+
+          </div>
+      </div>
+      
+      <div class="row">
+        <div class="col-md-12">
+          <div class="jumbotron center">
+            <h1>Guess the Animal!</h1>
+            <h2><span id="enter"></span></h2>
+          </div>
+        </div>
+      </div>
+      
+      <div class="row center">
+
+        <div class="col-md-4"">
+          <div class="panel panel-default">   
+
+            <div class="panel-heading">
+              <h1>Word to Guess</h1>
+            </div>       
+           
+            <div class="panel-body">
+                <h2><span id="secret"></span></h2>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="col-md-4"">
+          <div class="panel panel-default">        
+            
+            <div class="panel-heading">
+              <h1>Letters Guessed</h1>
+            </div>
+            
+            <div class="panel-body">
+                <h2><span id="letters"></span></h2>
+            </div>
+          
+          </div>
+        </div>
+          
+        <div class="col-md-4"">
+          <div class="panel panel-default">        
+            
+            <div class="panel-heading">
+              <h1>Wrong Guess Counter</h1>
+            </div>
+              
+            <div class="panel-body">
+              <h2><span id="letterswrong"></span></h2>
+            </div>
+            
+            </div>
+          </div>
+        </div>
+      </div> 
+
+
+  <script src="assets/javascript/game.js"></script>
+  </body>
+</html>
